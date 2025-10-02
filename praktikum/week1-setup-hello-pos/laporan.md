@@ -10,7 +10,9 @@ Topik: [pembuatan program "Hello World, I am [nama]-[nim]" dalam 3 paradigma dal
 
 ## Tujuan
 a. memahami perbedaan gaya pemrograman prosedural, OOP, dan fungsional.
+
 b. mengimplementasikan program sederhana "Hello World, I am [nama]-[nim]" menggunakan ketiga gaya pemrograman.
+
 c. membandingkan karakteristik dan pendekatan masing-masing gaya dalam menyelesaikan masalah yang sama.
 
 ---
