@@ -1,5 +1,5 @@
 # Laporan Praktikum Minggu 1 
-Topik: [pembuatan program "Hello World, I am [nama]-[nim]" dalam 3 paradigma dalam java]
+Topik: pembuatan program "Hello World, I am [nama]-[nim]" dalam 3 paradigma dalam java
 
 ## Identitas
 - Nama  : AKHMAD AKBAR SYARIFUDIN
@@ -167,19 +167,26 @@ e. Pemilihan model pemrograman harus disesuaikan dengan kebutuhan proyek, skala 
 
 ## Quiz
 1. Apakah OOP selalu lebih baik dari prosedural?
+   
    **Jawaban:** Tidak selalu. OOP lebih baik untuk aplikasi besar dan kompleks karena lebih mudah dikembangkan dan dipelihara. Namun untuk program sederhana atau script kecil, prosedural justru lebih efisien dan mudah dipahami. Pemilihan paradigma tergantung pada skala dan kebutuhan proyek.
 
 2. Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?
+   
    **Jawaban:** Functional programming lebih cocok digunakan ketika kita perlu memproses data dalam jumlah besar dan melakukan transformasi data. Paradigma ini sangat efektif untuk operasi pada collection seperti filter, map, dan reduce yang membuat kode lebih ringkas dan mudah dibaca. Functional programming juga membantu menghindari bug yang disebabkan oleh perubahan data yang tidak terduga karena sifatnya yang immutable. Selain itu, paradigma ini lebih aman untuk pemrograman paralel atau concurrent karena tidak mengubah state secara langsung sehingga mengurangi risiko konflik antar proses.
 
 3. Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?
-   **Jawaban:** 
+   **Jawaban:**
+   
 a. Prosedural: Maintainability rendah untuk aplikasi besar karena kode sulit diorganisir. Scalability terbatas.
+
 b. OOP: Maintainability tinggi karena kode terstruktur dalam class dan object. Scalability baik untuk aplikasi kompleks dengan banyak fitur.
+
 c. Fungsional: Maintainability baik karena fungsi bersifat independen dan reusable. Scalability baik untuk operasi data paralel.
 
 4. Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?
+   
    **Jawaban:** Aplikasi POS memiliki banyak entitas seperti Produk, Pelanggan, Transaksi, dan Kasir dengan data dan perilaku masing-masing. OOP memungkinkan setiap entitas direpresentasikan sebagai class yang jelas sehingga mudah menambah fitur baru tanpa mengubah kode lama. Kode menjadi lebih terorganisir dan mudah dipahami tim, enkapsulasi melindungi data sensitif seperti harga dan stok, serta reusability code lebih tinggi karena class dapat digunakan kembali di berbagai bagian aplikasi.
 
 5. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (*boilerplate code*)?
+   
    **Jawaban:** Paradigma fungsional mengurangi boilerplate code dengan menggunakan lambda expression yang lebih ringkas dibanding anonymous class, serta higher-order functions yang dapat menerima fungsi sebagai parameter. Method reference juga membantu menghindari penulisan kode redundan, dan Stream API menggantikan loop berulang seperti for dan while. Contoh: list.stream().filter(x -> x > 5) jauh lebih singkat dan mudah dibaca dibanding harus menulis loop manual dengan if secara berulang-ulang.
