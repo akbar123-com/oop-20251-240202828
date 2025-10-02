@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 1 
 Topik: [pembuatan program "Hello World, I am [nama]-[nim]" dalam 3 paradigma dalam java]
 
 ## Identitas
@@ -134,14 +134,18 @@ import java.util.function.BiConsumer;
 ## Hasil Eksekusi
 
 hasilhelloprosedural.java.png
+
 hasilhellooop.java.png
+
 hasilhellofungtional.java.png
 
 ---
 
 ## Analisis
 a. Prosedural yaitu Program berjalan secara linear atau urutan dari atas ke bawah. Variabel dideklarasikan di dalam method main(), kemudian langsung dicetak. 
+
 b. OOP yaitu Program membuat blueprint (class Mahasiswa) yang memiliki atribut dan behavior. Objek m dibuat dari class tersebut dengan data spesifik, kemudian method sapa() dipanggil untuk menampilkan informasi. Pendekatan ini memisahkan data dan behavior dalam struktur yang terorganisir.
+
 c. Functional yaitu Program menggunakan interface BiConsumer yang menerima dua parameter (String dan Integer). Lambda expression (nama, nim) -> ... mendefinisikan fungsi secara ringkas tanpa perlu membuat class terpisah. Fungsi dipanggil menggunakan method accept().
 
 ---
@@ -149,9 +153,13 @@ c. Functional yaitu Program menggunakan interface BiConsumer yang menerima dua p
 ## Kesimpulan
 
 a. Ketiga model pemrograman (prosedural, OOP, dan fungsional) dapat menyelesaikan masalah yang sama dengan pendekatan berbeda.
+
 b. prosedural paling sederhana dan cocok untuk program kecil yang tidak memerlukan struktur kompleks.
+
 c. OOP memberikan struktur yang lebih baik untuk aplikasi besar dengan enkapsulasi data dan behavior dalam objek, memudahkan maintenance dan pengembangan.
+
 d. fungsional menunjukan cara yang lebih ringkas dan deklaratif, sangat berguna untuk operasi data dan menghindari side effects.
+
 e. Pemilihan model pemrograman harus disesuaikan dengan kebutuhan proyek, skala aplikasi, dan tim pengembang. Tidak ada model pemrograman yang lebih baik; semuanya memiliki kelebihan dan kekurangan masing-masing.
 
 
