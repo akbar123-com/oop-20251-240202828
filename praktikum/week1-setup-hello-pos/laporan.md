@@ -29,34 +29,55 @@ c. membandingkan karakteristik dan pendekatan masing-masing gaya dalam menyelesa
 ## Langkah Praktikum
 
 1. Setup Environment
+   
 a. Memastikan JDK terinstal (Java Development Kit)
+
 b. Menyiapkan text editor atau IDE (seperti VS Code, IntelliJ IDEA, atau Eclipse)
+
 c. Membuat direktori kerja untuk menyimpan file Java
+
 
 2. Implementasi Paradigma Prosedural
 
 a. Membuat file HelloProsedural.java
+
 b. Menulis kode dengan pendekatan prosedural menggunakan method main() langsung
+
 c. Mendeklarasikan variabel nama dan NIM
+
 d. Mencetak output menggunakan System.out.println()
 
+
 3. Implementasi Paradigma OOP
+   
 a. Membuat file HelloOOP.java
+
 b. Membuat class Mahasiswa dengan atribut nama dan nim
+
 c. Membuat constructor untuk inisialisasi objek
+
 d. Membuat method sapa() untuk menampilkan pesan
+
 e. Membuat objek Mahasiswa dan memanggil method sapa()
 
+
 4. Implementasi Paradigma Fungsional
+   
 a. Membuat file HelloFunctional.java
+
 b. Mengimport java.util.function.BiConsumer
+
 c. Menggunakan lambda expression untuk membuat fungsi sapa
+
 d. Memanggil fungsi menggunakan method accept()
+
 
 5. Kompilasi dan Eksekusi
 
 a. Mengkompilasi setiap file: javac NamaFile.java
+
 b. Menjalankan program: java NamaClass
+
 c. Mendokumentasikan hasil output dari ketiga program
 
 
