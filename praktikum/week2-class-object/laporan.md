@@ -1,3 +1,4 @@
+
 # Laporan Praktikum Minggu 2
 Topik: [Class dan Object (Produk Pertanian)]
 
