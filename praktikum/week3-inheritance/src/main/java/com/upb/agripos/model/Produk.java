@@ -2,10 +2,11 @@ package main.java.com.upb.agripos.model;
 
 
 public class Produk {
+    @SuppressWarnings("FieldMayBeFinal")
     private String kode;
-    private String nama;
-    private double harga;
-    private int stok;
+    private final String nama;
+    private final double harga;
+    private final int stok;
 
     public Produk(String kode, String nama, double harga, int stok) {
         this.kode = kode;
