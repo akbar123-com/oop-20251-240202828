@@ -1,7 +1,7 @@
-package main.java.com.upb.agripos; 
+package com.upb.agripos.week3;
 
-import main.java.com.upb.agripos.model.*; 
-import main.java.com.upb.agripos.util.CreditBy;
+import com.upb.agripos.week3.model.*;
+import com.upb.agripos.week3.util.CreditBy;
 
 public class MainInheritance {
     public static void main(String[] args) {

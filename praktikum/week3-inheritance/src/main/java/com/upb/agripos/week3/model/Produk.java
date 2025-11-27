@@ -1,5 +1,4 @@
-package main.java.com.upb.agripos.model;
-
+package com.upb.agripos.week3.model;
 
 public class Produk {
     @SuppressWarnings("FieldMayBeFinal")
@@ -14,7 +13,6 @@ public class Produk {
         this.harga = harga;
         this.stok = stok;
     }
-
 
     public String getKode() { return kode; }
     public String getNama() { return nama; }

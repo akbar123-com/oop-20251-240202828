@@ -1,4 +1,4 @@
-package main.java.com.upb.agripos.model; 
+package com.upb.agripos.week3.model;
 
 public class Benih extends Produk {
     private String varietas;
