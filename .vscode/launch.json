@@ -1,0 +1,81 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainProduk",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainProduk",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainInheritance",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.week3.MainInheritance",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainPolymorphism",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainPolymorphism",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainAbstraction",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainAbstraction",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainCart",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainCart",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainExceptionDemo",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainExceptionDemo",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "MainCartMap",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainCartMap",
+            "projectName": "oop-20251-240202828_441ad306"
+        },
+        {
+            "type": "java",
+            "name": "Run MainCart (Week7)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainCart",
+            "projectName": "week7-koleksi-keranjang",
+            "cwd": "${workspaceFolder}/praktikum/week7-koleksi-keranjang/src/main/java",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run MainCartMap (Week7)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainCartMap",
+            "projectName": "week7-koleksi-keranjang",
+            "cwd": "${workspaceFolder}/praktikum/week7-koleksi-keranjang/src/main/java",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run MainExceptionDemo (Week9)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainExceptionDemo",
+            "projectName": "week9-exception-handling",
+            "cwd": "${workspaceFolder}/praktikum/week9-exception-handling/src/main/java",
+            "console": "integratedTerminal"
+        }
+    ]
+}
